@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+.fontawesome {
+    -glyph-size:15.0;
+    -fx-cursor: hand;
+}
+
+.fontawesome_dashboard {
+    -glyph-size:25;
+}
+
+.fontawesome_dashboard_left {
+    -glyph-size:18;
+}
+
+.text_dashboard {
+    -fx-font-family: 'Quicksand Light';
+}
+
+.Sign_Up {
+    -fx-background-color:linear-gradient(to right, #2bc0e4, #eaecc6);
+}
+
+.text_login {
+    -fx-font-family: 'Quicksand Light';
+}
+
+.hover_border:hover {
+    -fx-border-color: #0fbcf9;
+    -fx-border-width: 0px 0px 0px 6px;
+    -fx-background-color: #34e7e4e0;
+    -fx-cursor: hand;
+}
+
+.cursor_hand {
+    -fx-cursor: hand;
+}
+
+.application {
+    -fx-background-color: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+}
+
+.application_header {
+    -fx-font-family: 'Fjalla One';
+}
+
+.date-picker>.text-field {
+    -fx-background-color: rgba(53,89,119,0.4);
+}
+
+.date-picker:focused>.text-field {
+     -fx-background-color: #ffffff;
+    -fx-background-insets: 1 0 1 1;
+    -fx-background-radius: 2 0 0 2;
+}
+.text-area {
+    -fx-prompt-text-fill: #3b3a3a;
+    -fx-background-color: rgba(53,89,119,0.4);
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.application_textfield {
+    -fx-prompt-text-fill: #3b3a3a;
+}
+
+.application_button {
+    -fx-font-family: 'Quicksand Light';
+}
+
+.combo-box .text-field{
+    -fx-prompt-text-fill: #ffffff ;
+}
+
+.basic_data {
+    -fx-background-color: linear-gradient(to top, #4ca1af, #c4e0e5);
+}
+
+.contact_us {
+    -fx-background-color: linear-gradient(to bottom,#FFC88F,#FF7372);
+}
+
+.text_contact_us {
+    -fx-font-family: 'Roboto';
+    -fx-font-weight: bold;
+}
+
+

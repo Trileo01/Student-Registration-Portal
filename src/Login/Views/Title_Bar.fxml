@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER_RIGHT" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Controls.Title_Bar_Controller">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <FontAwesomeIconView fill="#fed330" glyphName="CIRCLE" onMouseClicked="#min" styleClass="fontawesome">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fill="#26de81" glyphName="CIRCLE" layoutX="20.0" layoutY="30.0" onMouseClicked="#max" styleClass="fontawesome">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fill="#ff3b49" glyphName="CIRCLE" layoutX="20.0" layoutY="30.0" onMouseClicked="#close" styleClass="fontawesome">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </FontAwesomeIconView>
+   </children>
+</HBox>
